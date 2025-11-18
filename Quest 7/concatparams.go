@@ -1,0 +1,19 @@
+package piscine
+
+// import ("fmt")
+
+//func main() {
+//	test := []string{"Hello", "how", "are", "you?"}
+//	fmt.Println(ConcatParams(test))
+//}
+
+func ConcatParams(args []string) string {
+	result := ""
+	for i, arg := range args {
+		result += arg
+		if i < len(args)-1 {
+			result += "\n"
+		}
+	}
+	return result
+}

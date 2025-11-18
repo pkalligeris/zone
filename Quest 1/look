@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Script to list files based on specific patterns
+find . \( -name "a*" -o -name "*z" -o -name "z*a!" \)
